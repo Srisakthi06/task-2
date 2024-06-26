@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:cadetblue;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 28px;
+    color: #255255,255;
+    letter-spacing: 1.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+p {
+    font-size: 20px;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}

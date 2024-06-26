@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Background color change</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <h2 align="center"><italic>BackgroundColor Change</italic></h2>
+        <div id="demo">
+            Name <input type="text" name="name"><br><br>
+            Roll_No <input type="text" name="RollNo"><br><br>
+            College <input type="text" name="clg"><br><br>
+            Department <input type="text" name="dep"><br><br>  
+            <button onclick="background(this)">Submit</button>
+            <input type="button" class="button" value="Black" onclick="Black()">
+           <input type="button" class="button" value="Pink" onclick="Pink()">
+           <input type="button" class="button" value="SkyBule" onclick="Skybule()">
+           <script>
+            function background(event){
+                event.style.backgroundColor="white";
+            }
+            
+            function Black(){
+                document.bgColor="Black"; 
+            }
+            function Pink(){
+                document.bgColor="Pink";
+              }
+              function Skybule(){
+                document.bgColor="Skybule";
+              }
+        </script>
+        </div>
+    </body>
+</html>
